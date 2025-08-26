@@ -1,6 +1,6 @@
 # end2end_planning
 using deep learning model to predict planning path
-
+![Watch the video](./e2e_mdl_test.gif)
 ## directory tree 
 
   ├── ./check_label.py--------------> dataset label generator help file<br>
@@ -36,4 +36,4 @@ python close_loop_train.py<br>
 python model_to_onnx.py<br>
 python model_test.py --closeloop<br>
 
-<video src="./e2e_mdl_test.mp4" autoplay="true" controls="controls" width="960" height="320"></video>
+
