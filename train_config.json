@@ -1,0 +1,15 @@
+{
+    "lr": 1e-3, 
+    "retrain": false, 
+    "batch_sz": 8,
+    "epoch": 100,
+    "optim_per_steps": 18,
+    "optim_type": "SGD",
+    "weight_declay":1e-2,
+    "use_wandb": false,
+    "mtp_alpha": 0.1,
+    "training_datadir": "dataset/realdata/training",
+    "test_datadir": "dataset/realdata/test",
+    "sequence_len": 900,
+    "grad_clip": 2.0
+}
